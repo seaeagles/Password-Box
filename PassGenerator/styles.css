@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.password-box {
+        width: 400px;
+        height: 250px;
+        background: #d0f4de;
+        position: absolute;
+        top: 16%;
+        left: 35%;
+        border-radius: 20px;
+       
+}
+
+.password-box::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    background: rgb(43, 42, 42);
+    width: 90%;
+    height:4px;
+    left:3%;
+    border-radius:50%;
+    filter: blur(3px);
+}
+
+.labels-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
