@@ -6,6 +6,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+
 .password-box {
         width: 400px;
         height: 250px;
@@ -24,7 +25,7 @@ body {
     background: rgb(43, 42, 42);
     width: 90%;
     height:4px;
-    left:3%;
+    left:5%;
     border-radius:50%;
     filter: blur(3px);
 }
